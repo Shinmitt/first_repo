@@ -1,4 +1,4 @@
-let correctNumber = Math.floor(Math.random() * 3) + 1;
+let correctNumber = Math.floor(Math.random() * 20) + 1;
 console.log(correctNumber); //デバッグ用。実際のゲームではコメントアウトした方が良いです。
 
 function checkNumber() {
