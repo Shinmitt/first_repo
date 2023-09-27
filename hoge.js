@@ -5,7 +5,7 @@ function checkNumber() {
     let userInput = document.getElementById('userInput').value;
     
     if (userInput == correctNumber) {
-        document.getElementById('result').innerHTML = '正解です！';
+        document.getElementById('result').innerHTML = '正解です！！';
     } else {
         document.getElementById('result').innerHTML = '違います。もう一度試してください！';
     }
